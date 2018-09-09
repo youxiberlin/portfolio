@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto|Ubuntu:400,500");
+body {
+  font: 100% "Roboto", sans-serif;
+  color: #fff;
+  margin: 0;
+  height: 100%;
+  background-image: linear-gradient(to top, #5974a5 0%, #c0cbdb 100%);
+}
+body nav {
+  margin-top: 10px;
+  margin-left: 12vw;
+}
+body a {
+  color: white;
+}
+body header {
+  padding-top: 2vh;
+  padding-left: 12vw;
+  font-family: Ubuntu;
+  height: 25vh;
+}
+body header h3 {
+  font-size: 1.5rem;
+}
+body header .profile {
+  line-height: 0.3rem;
+}
+body h1 {
+  font-size: 3rem;
+  margin-left: 12vw;
+  margin-bottom: 0;
+}
+body .first {
+  border-top: 1px solid rgba(255, 255, 255, 0.7);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 12vw;
+}
+body .first span {
+  font-size: 2rem;
+  font-family: Ubuntu;
+}
+body .first .number {
+  font-size: 3rem;
+}
+body .first .thumnail {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 200px;
+  height: 150px;
+  background-image: url("../images/bearlicious.png");
+  background-size: cover;
+  position: relative;
+}
+body .first .thumnail .overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+}
+body .first .project-text {
+  width: 70%;
+}
+body .first .project-caption {
+  font-size: 0.9rem;
+}
+body #top {
+  position: fixed;
+  bottom: 2vh;
+  font-size: 0.9rem;
+  margin-left: 2vw;
+}
+
+/*# sourceMappingURL=style.css.map */
